@@ -1,0 +1,7 @@
+in compile controller, when linking, place after /OUT:"..."
+
+/DEF:"c:\SuperDLL\SuperDLL.DEF" 
+
+OR
+
+/DEF:"c:\SuperDLL\SuperDLL.DEF" /MAP /MAPINFO:EXPORTS 
